@@ -1,193 +1,159 @@
 export const config = {
     developer: {
-        name: "Redoyanul",
-        fullName: "Redoyanul Haque",
-        title: "AI & Full-Stack Developer",
-        description: "AI & Full-Stack Developer building intelligent systems and modern web applications. Passionate about machine learning, deep learning, and creating next-gen autonomous agents."
+        name: "Pranav",
+        fullName: "Pranav Tiwari",
+        title: "Software Engineer",
+        description: "Software Engineer building scalable backend systems and distributed services with Go and Node.js. Experienced in microservices, API gateways, and cloud deployment on AWS, with a strong foundation in data structures, algorithms, and system design."
     },
     social: {
-        github: "red1-for-hek",
-        email: "redoyanul1234@gmail.com",
-        location: "Bangladesh"
+        github: "https://github.com/prrrrnav",
+        email: "d.officialpranav@gmail.com",
+        location: "Bengaluru, India"
     },
     about: {
         title: "About Me",
-        description: "I am a self-taught AI & Full-Stack Developer from Bangladesh. I build intelligent systems, chatbots, and modern web applications. My expertise includes Machine Learning, Deep Learning, NLP, and Full-Stack Web Development with React, Node.js, and Python. Currently building next-gen AI Agents and JARVIS-like Personal Assistants. I have a competitive programming mindset and a deep passion for automation. Code is poetry, AI is the canvas."
+        description: "I'm a Software Engineer focused on building scalable backend systems and distributed services using Go and Node.js. I have a strong foundation in data structures, algorithms, and system design, with hands-on experience designing microservices, API gateways, and deploying containerized services on AWS. I enjoy optimizing performance, reducing latency, and shipping production-ready systems in fast-paced, ambiguous environments. I'm currently pursuing my Master of Computer Applications at Presidency University, Bengaluru, and regularly practice algorithmic problem solving on LeetCode and GeeksforGeeks."
     },
     experiences: [
         {
-            position: "Learning Something New",
-            company: "Self-Development",
-            period: "2025 - Present",
-            location: "Bangladesh",
-            description: "Continuously exploring emerging technologies, researching advanced AI systems, and pushing the boundaries of what's possible in tech.",
+            position: "Master of Computer Applications (MCA)",
+            company: "Presidency University, Bengaluru",
+            period: "2024 - Present",
+            location: "Bengaluru, India",
+            description: "Pursuing my MCA, graduating in July 2026, building on a Bachelor of Computer Applications from Integral University, Lucknow (Oct 2024) with a strong foundation in DSA, OOP, and system design.",
             responsibilities: [
-                "Researching cutting-edge AI and ML technologies",
-                "Experimenting with new frameworks and tools",
-                "Contributing to open-source projects",
-                "Building innovative personal projects"
+                "Strengthening foundations in Data Structures, Algorithms, and System Design",
+                "Regularly practicing problem solving on LeetCode and GeeksforGeeks",
+                "Applying coursework to production-grade backend projects",
+                "Completed AI for Engineers certification from IIT Kanpur"
             ],
-            technologies: ["Research", "Innovation", "Open Source", "New Tech"]
+            technologies: ["DSA", "OOP", "System Design", "Algorithms", "Computer Science Fundamentals"]
         },
         {
-            position: "AI Engineer",
-            company: "Freelance & Projects",
+            position: "Stateless Auth & Rate-Limited API Service",
+            company: "Personal Project",
+            period: "2025 - 2026",
+            location: "Bengaluru, India",
+            description: "Designed and built a stateless distributed API gateway with JWT authentication and Redis-based rate limiting, improving throughput by 20% and reducing latency by ~15-20ms under concurrent load.",
+            responsibilities: [
+                "Built a stateless distributed API gateway with JWT auth and Redis-based sliding-window rate limiting",
+                "Architected horizontally scalable microservices by decoupling session and persistent storage using Redis and PostgreSQL",
+                "Deployed containerized services on AWS EC2 with CI/CD pipelines for consistent production environments"
+            ],
+            technologies: ["Go", "Redis", "PostgreSQL", "Docker", "AWS EC2", "JWT"]
+        },
+        {
+            position: "NIDAR Drone Navigation",
+            company: "NIDAR Drone Federation",
+            period: "2025 - 2026",
+            location: "Bengaluru, India",
+            description: "Designed a real-time navigation pipeline integrating GPS and computer vision for autonomous mission execution under strict time constraints, leading a cross-functional team of 4 engineers.",
+            responsibilities: [
+                "Led a cross-functional team of 4 engineers, delivering a fully functional autonomous system",
+                "Integrated GPS and OpenCV-based computer vision for real-time navigation",
+                "Secured ₹4.5L funding and achieved Top 20 rank among 500+ teams"
+            ],
+            technologies: ["Python", "OpenCV", "Docker", "GPS"]
+        },
+        {
+            position: "Applicant Tracking System (ATS) Platform",
+            company: "Personal Project",
             period: "2025",
-            location: "Bangladesh",
-            description: "Developing intelligent AI systems, chatbots, and machine learning solutions. Building next-gen conversational AI agents and JARVIS-like personal assistants.",
+            location: "Bengaluru, India",
+            description: "Built a scalable backend system for resume analysis with REST APIs and MongoDB, integrating external AI services to automate evaluation workflows for concurrent users.",
             responsibilities: [
-                "Building AI-powered chatbots and conversational agents",
-                "Developing machine learning models with TensorFlow and PyTorch",
-                "Working with LLMs and transformer architectures",
-                "Creating autonomous AI systems and automation tools"
+                "Built REST APIs and MongoDB-backed services supporting concurrent users and async processing",
+                "Integrated the OpenAI API to process and evaluate resumes for automated decision-making",
+                "Designed system architecture to handle duplicate requests and ensure consistency"
             ],
-            technologies: ["Python", "TensorFlow", "PyTorch", "LLMs", "NLP", "AI Agents"]
+            technologies: ["Node.js", "OpenAI API", "MongoDB", "Docker", "JWT", "MERN Stack"]
         },
         {
-            position: "Full-Stack Developer",
-            company: "Freelance & Projects",
+            position: "Backend Developer",
+            company: "IoT Air Quality Monitoring System (Internship)",
+            period: "2024 - 2025",
+            location: "Bengaluru, India",
+            description: "Designed and implemented an event-driven sensor ingestion pipeline processing real-time device data, reducing database writes by 92% and improving system efficiency under high-frequency inputs.",
+            responsibilities: [
+                "Built fault-tolerant backend systems ensuring idempotent processing and reliable data handling",
+                "Reduced database writes by 92% with an event-driven ingestion pipeline",
+                "Collaborated across hardware, firmware, and backend teams to deliver an end-to-end IIoT solution"
+            ],
+            technologies: ["Go", "Sensor Data Ingestion", "BLE", "Distributed Systems", "IIoT"]
+        },
+        {
+            position: "Backend Developer",
+            company: "Dr-LaBike (Freelance Client)",
             period: "2024",
-            location: "Bangladesh",
-            description: "Built complete web applications from frontend to backend. Developed responsive UIs, RESTful APIs, and database solutions for various clients and projects.",
+            location: "Remote",
+            description: "Developed and deployed a scalable backend system serving 1000+ monthly bookings and 200+ users, improving operational efficiency for rural healthcare services.",
             responsibilities: [
-                "Developing full-stack web applications using React and Node.js",
-                "Building RESTful APIs and integrating databases",
-                "Creating responsive and interactive user interfaces",
-                "Deploying and maintaining web applications"
+                "Designed optimized database schemas and queries, improving response time and data retrieval",
+                "Implemented secure authentication and middleware to handle concurrent requests reliably",
+                "Served 1000+ monthly bookings and 200+ users in production"
             ],
-            technologies: ["React", "Node.js", "MongoDB", "Express", "Next.js", "TypeScript"]
-        },
-        {
-            position: "Python Developer",
-            company: "Self-Taught & Projects",
-            period: "2023",
-            location: "Bangladesh",
-            description: "Dove deep into Python programming, building automation scripts, bots, and mastering the fundamentals of software development and problem-solving.",
-            responsibilities: [
-                "Learning Python programming and core concepts",
-                "Building automation scripts and Discord bots",
-                "Exploring data structures and algorithms",
-                "Participating in competitive programming"
-            ],
-            technologies: ["Python", "Automation", "Scripting", "Discord.py", "Problem Solving"]
-        },
-        {
-            position: "Graphic Designer",
-            company: "Freelance",
-            period: "2022",
-            location: "Bangladesh",
-            description: "Started my creative journey as a graphic designer, creating logos, banners, and visual content. This sparked my passion for technology and digital creation.",
-            responsibilities: [
-                "Designing logos and brand identity materials",
-                "Creating social media graphics and banners",
-                "Working with clients on creative projects",
-                "Learning design principles and visual aesthetics"
-            ],
-            technologies: ["Photoshop", "Illustrator", "Canva", "Figma", "Visual Design"]
-        },
-        {
-            position: "Microsoft Office",
-            company: "Begin Learning",
-            period: "2021",
-            location: "Bangladesh",
-            description: "Started my journey into the digital world by learning Microsoft Office tools. This foundational step introduced me to computers and sparked my curiosity for technology.",
-            responsibilities: [
-                "Learning Microsoft Word, Excel, and PowerPoint",
-                "Creating documents and presentations",
-                "Understanding basic computer operations",
-                "Building foundational digital skills"
-            ],
-            technologies: ["MS Word", "MS Excel", "MS PowerPoint", "Computer Basics"]
+            technologies: ["Node.js", "REST APIs", "Authentication", "Middleware"]
         }
     ],
     projects: [
         {
             id: 1,
-            title: "Drishti",
-            category: "AI / LLM",
-            technologies: "Python, PyTorch, Transformers, FastAPI, React, MongoDB",
-            image: "/images/drishti.png",
-            description: "Bangladesh's first intelligent advanced AI chatbot powered by a custom Large Language Model. Features natural language understanding, contextual conversations, and multilingual support including Bengali."
+            title: "Stateless Auth & Rate-Limited API Service",
+            category: "Backend / Distributed Systems",
+            technologies: "Go, Redis, PostgreSQL, Docker, AWS EC2, JWT",
+            image: "/images/project-1.webp",
+            description: "A stateless distributed API gateway with JWT authentication and Redis-based rate limiting, improving throughput by 20% and reducing latency by ~15-20ms under concurrent load. Horizontally scalable microservices deployed on AWS EC2 with CI/CD."
         },
         {
             id: 2,
-            title: "VoteChain",
-            category: "Blockchain",
-            technologies: "Solidity, Web3.js, React, Ethereum, IPFS, MetaMask, Node.js",
-            image: "/images/votechain.png",
-            description: "A decentralized election system built on blockchain technology ensuring transparent, tamper-proof, and verifiable voting. Features smart contracts for vote integrity and real-time result tracking."
+            title: "Applicant Tracking System (ATS) Platform",
+            category: "Full Stack / AI",
+            technologies: "Node.js, OpenAI API, MongoDB, Docker, JWT, MERN Stack",
+            image: "/images/project-2.webp",
+            description: "A scalable backend for resume analysis with REST APIs and MongoDB, supporting concurrent users and asynchronous processing. Integrates the OpenAI API to evaluate user inputs and automate decision-making workflows."
         },
         {
             id: 3,
-            title: "EIE - Earthquake Impact Estimator",
-            category: "IoT / Hardware",
-            technologies: "Arduino, C++, IoT Sensors, Python, ML, React",
-            image: "/images/eie.png",
-            description: "A practical circuit-based IoT system utilizing Arduino to predict earthquakes before they strike. Integrates hardware sensors for real-time seismic detection and impact estimation."
+            title: "NIDAR Drone Navigation",
+            category: "Robotics / Computer Vision",
+            technologies: "Python, OpenCV, Docker, GPS",
+            image: "/images/project-3.webp",
+            description: "A real-time navigation pipeline integrating GPS and computer vision for autonomous mission execution under strict time constraints. Led a team of 4 engineers, securing ₹4.5L funding and a Top 20 rank among 500+ teams."
         },
         {
             id: 4,
-            title: "GameKroy",
-            category: "Full Stack",
-            technologies: "React, Node.js, MongoDB, Express, Stripe, TailwindCSS",
-            image: "/images/gamekroy.png",
-            description: "A full-featured e-commerce platform for gaming products. Includes user authentication, product catalog, shopping cart, secure payments, order tracking, and admin dashboard."
+            title: "IoT Air Quality Monitoring System",
+            category: "IIoT / Backend",
+            technologies: "Go, Event-Driven Architecture, BLE, Sensor Data Pipelines",
+            image: "/images/project-4.webp",
+            description: "An event-driven sensor ingestion pipeline processing real-time device data, reducing database writes by 92% and improving efficiency under high-frequency inputs. Built fault-tolerant, idempotent processing across hardware, firmware, and backend teams."
         },
         {
             id: 5,
-            title: "RedxChess",
-            category: "AI / Game Engine",
-            technologies: "Python, C++, Neural Networks, Bitboards, UCI Protocol",
-            image: "/images/redxchess.png",
-            description: "A high-performance chess engine rated 3640 ELO. Features advanced search algorithms, neural network evaluation, and optimized bitboard representation for lightning-fast move generation."
-        },
-        {
-            id: 6,
-            title: "Floodhub",
-            category: "AI / ML",
-            technologies: "Python, TensorFlow, Pandas, React, FastAPI, GIS",
-            image: "/images/floodhub.png",
-            description: "A flood prediction model specifically designed for Bangladesh's river systems. Analyzes weather patterns, water levels, and historical data to provide accurate flood forecasts and alerts."
-        },
-        {
-            id: 7,
-            title: "Phoenix",
-            category: "AI Assistant",
-            technologies: "Python, Speech Recognition, PyAutoGUI, OpenAI API, Tkinter",
-            image: "/images/phoenix.png",
-            description: "A JARVIS-inspired personal AI desktop assistant. Controls system functions, manages tasks, answers queries, automates workflows, and provides voice-activated computing experience."
-        },
-        {
-            id: 8,
-            title: "HekTools",
-            category: "Security / Android",
-            technologies: "Kotlin, Android SDK, Firebase, Python, Encryption",
-            image: "/images/hektools.png",
-            description: "An advanced Android monitoring and security research tool. Features remote device management, activity logging, and encrypted data transmission for security testing purposes."
+            title: "Dr-LaBike",
+            category: "Backend / Healthcare Tech",
+            technologies: "Node.js, REST APIs, Authentication, Database Design",
+            image: "/images/project-5.webp",
+            description: "A scalable backend system serving 1000+ monthly bookings and 200+ users, improving operational efficiency for rural healthcare services with optimized database schemas and secure middleware."
         }
     ],
     contact: {
-        email: "redoyanul1234@gmail.com",
-        github: "https://github.com/red1-for-hek",
-        linkedin: "https://linkedin.com/in/red1-for-hek",
-        twitter: "https://x.com/red_1_ul",
-        facebook: "https://www.facebook.com/redoyanulhaque.hacker.official",
-        instagram: "https://www.instagram.com/red_1_ul"
+        email: "d.officialpranav@gmail.com",
+        github: "https://github.com/prrrrnav",
+        linkedin: "https://www.linkedin.com/in/prrrranv"
     },
     skills: {
         develop: {
-            title: "AI DEVELOPER",
-            description: "Building intelligent systems & AI solutions",
-            details: "Developing AI agents, chatbots, and machine learning models using Python, TensorFlow, and PyTorch. Specializing in LLMs, NLP, deep learning, and autonomous systems.",
-            tools: ["Python", "TensorFlow", "PyTorch", "OpenCV", "Scikit-learn", "LLMs", "NLP", "Deep Learning", "Chatbots", "AI Agents"]
+            title: "BACKEND ENGINEER",
+            description: "Building scalable backend systems & distributed services",
+            details: "Designing RESTful APIs, microservices, and API gateways with Go and Node.js. Experienced with JWT auth, sliding-window rate limiting, stateless architecture, and event-driven sensor ingestion pipelines for IIoT systems.",
+            tools: ["Go", "Node.js", "REST APIs", "Microservices", "JWT Auth", "Rate Limiting", "TCP/IP", "BLE Networking"]
         },
         design: {
-            title: "FULL-STACK",
-            description: "Modern web development & scalable applications",
-            details: "Building responsive and performant web applications using React, Next.js, Node.js, and databases. Creating seamless user experiences with modern UI/UX principles.",
-            tools: ["React", "Next.js", "Node.js", "TypeScript", "MongoDB", "PostgreSQL", "TailwindCSS", "REST APIs", "Docker", "Git"]
+            title: "CLOUD & DATA",
+            description: "Databases, DevOps, and cloud deployment",
+            details: "Designing schemas and optimizing queries across PostgreSQL, MongoDB, and Redis. Deploying containerized services to AWS EC2 with Docker and CI/CD pipelines for consistent, horizontally scalable production environments.",
+            tools: ["PostgreSQL", "MongoDB", "Redis", "Docker", "AWS EC2", "CI/CD", "Linux", "Horizontal Scaling"]
         }
     }
 };
-
-
