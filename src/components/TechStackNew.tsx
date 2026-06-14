@@ -1,3 +1,4 @@
+import { useEffect, useRef, useState } from "react";
 import "./styles/TechStackNew.css";
 
 interface TechItem {
@@ -44,19 +45,43 @@ const techStack: TechItem[][] = [
 ];
 
 const TechStackNew = () => {
+  const containerRef = useRef<HTMLDivElement>(null);
+  const [shouldLoadVideo, setShouldLoadVideo] = useState(false);
+
+  useEffect(() => {
+    const container = containerRef.current;
+    if (!container) return;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setShouldLoadVideo(true);
+          observer.disconnect();
+        }
+      },
+      { rootMargin: "200px" }
+    );
+
+    observer.observe(container);
+    return () => observer.disconnect();
+  }, []);
+
   return (
-    <div className="techstack-new">
+    <div className="techstack-new" ref={containerRef}>
       {/* Video Background */}
       <div className="techstack-video-container">
-        <video
-          autoPlay
-          loop
-          muted
-          playsInline
-          className="techstack-video"
-        >
-          <source src="/video/video.webm" type="video/webm" />
-        </video>
+        {shouldLoadVideo && (
+          <video
+            autoPlay
+            loop
+            muted
+            playsInline
+            preload="none"
+            className="techstack-video"
+          >
+            <source src="/video/video.webm" type="video/webm" />
+          </video>
+        )}
         {/* Dark Overlay */}
         <div className="techstack-overlay"></div>
       </div>
